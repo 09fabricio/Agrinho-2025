@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+  body{
+  min-height:10vh;
+  }
+
+  ::-webkit-scrollbar 
+  {
+      width: 12px;
+  }
+
+  ::-webkit-scrollbar-track 
+  {
+      background: #32a32a;
+  }
+
+  ::-webkit-scrollbar-thumb 
+  {
+      background: #161738;
+      border-radius: 12-0px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover 
+  {
+      opacity: .95;
+  }
+</style>
+<body>
+ 
+     <header class="header" id="header">
+      <nav class="nav">
+        <div class="nav__content container">
+          <a href="#" class="nav__logo"><span> 🍓🍓🍓</span></a>
+          <ul class="nav__links">
+            <li class="nav__link"><a href="#header">Pagina inicial</a></li>
+            <li class="nav__link"><a href="#services">Serviços</a></li>
+            <li class="nav__link"><a href="#about">Sobre mim</a></li>
+            <li class="nav__link"><a href="#contact">Contato</a></li>
+          </ul>
+      </nav>
+      <img src="fabricio3.jpg" height="50px" width="100%"/>
+  
+      
+         </section>
+    </header>
+    <br> <br> <br> <br> <br> <br><br><br>
+    <main class="main">
+<br><br><br>
+      <section class="services" id="services">
+        <div class="section__content container">
+          <h2 class="section__title section__title--black">Meus trabalhos</h2>
+
+          <div class="services__cards">
+            <div class="services__card">
+                           <img src="fabricio1.jpg" height="50%" width="100%"/>
+              <h3 class="services__card-title">Campo</h3>
+              <p class="services__card-description"> Gosto da vida no campo</p>
+            </div>
+
+            <div class="services__card">
+              <img src="fabricio2.jpg" height="50%" width="100%"/>
+              <h3 class="services__card-title">Roça</h3>
+              <p class="services__card-description">Motivo de minha felicidade</p>
+            </div>
+
+            <div class="services__card">
+              <img src="fabricio4.jpg" height="50%" width="100%"/>
+              <h3 class="services__card-title">Morango</h3>
+              <p class="services__card-description">Gosto de trabalhar com morangos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="section__content container">
+          <h2 class="section__title">Sobre mim</h2>
+          <p class="about__text">Sou uma pessoa que ama a vida no campo e a tecnologia</p>
+         
+        </div>
+      </section>
+
+     
+   
+      <section class="contact" id="contact">
+        <div class="contact__content container">
+
+          <div class="contact__socialmedia">
+            <h2>Podemos nos conectar</h2>
+            <p>Os contatos abaixo é para sanar as dúvidas, sobre a vida no campo e suas tecnologias.</p>
+            <div class="social-media social-media--contact">
+              <div class="social-media__icon">
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+              <div class="social-media__icon">
+                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+              </div>
+              <div class="social-media__icon">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+              </div>
+
+              <audio controls>
+                <source src="" type="audio/mp3">
+                <source src="" type="audio/wav">
+                <source src="" type="audio/ogg">
+              </audio>
+
+            </div>
+          </div>
+
+          <div class="contact__form">
+            <p>Se quiser trabalhar comigo em algum projeto, é só me enviar mensagem!</p>
+
+            <form action="" class="form">
+              <input type="text" class="form__input" placeholder="Seu nome" required>
+              <input type="email" class="form__input" placeholder="Seu Email" required>
+              <textarea cols="30" rows="10" placeholder="Detalhes do projeto" required></textarea>
+              <input type="submit" class="form__btn btn" value="Enviar">
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+  <script src="main.js"></script>
+ </body>
+
+
+</html>
